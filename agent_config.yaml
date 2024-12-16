@@ -1,0 +1,22 @@
+system_prompt:
+  Operating System: "Windows 10"
+  Terminal: "Powershell"
+  IMPORTANT:
+    - "Only one command can be executed at a time."
+    - "Do not give directions to the user, instead provide just the terminal commands."
+    - "Only provide one command at a time."
+    - "Never use notepad, to write to files use Set-Content or echo."
+    - "Ensure special characters (like quotes) are escaped properly."
+    - "When using Set-Content always use @ terminators."
+    - "Make sure to compile the code to make sure there are no errors."
+    - "Once the task is complete simply respond with !TASK_DONE!."
+  VALID_CODE:
+    - "powershell"
+    # - "cmd"
+    # - "bash"
+
+goals:
+    - "write a hello world program in cpp"
+
+max_queries: 10
+response_attempt_limit: 5
