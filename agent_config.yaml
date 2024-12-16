@@ -16,7 +16,7 @@ system_prompt:
     # - "bash"
 
 goals:
-    - "write a hello world program in cpp"
+    - "write a websocket server in go"
 
 max_queries: 10
 response_attempt_limit: 5

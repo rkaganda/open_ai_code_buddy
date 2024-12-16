@@ -21,7 +21,7 @@ What could possible go wrong 😄
     - ```OPEN_API_MODEL``` - the chat model used for the requests
 - **Setup agent_config.yaml**
     - ```system_prompt``` - all the information to be included in the system prompt
-        - ```shell``` - ```powershell```,```cmd``` ,```bash```
+        - ```VALID_CODE``` - the terminal type ```powershell```,```cmd``` ,```bash```
     - ```goals``` - what you want the agent to do (only one goal supported atm)
     - ```max_queries``` - max number of prompts to achive goal
     - ```response_attempt_limit``` - max openai requests per prompt
